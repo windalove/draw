@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.1.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3397" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4551" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -501,6 +501,9 @@
         </mxCell>
         <mxCell id="-BZLUgVBchCZVsi0vIrl-227" value="读缓存，缓存存在，那就是通过参数计算一个md5值，找到对应缓存文件直接返回结果" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1480" y="660" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-BZLUgVBchCZVsi0vIrl-228" value="实时读，那就是生成缓存的流程，但是不保存缓存文件" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1500" y="770" width="600" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
