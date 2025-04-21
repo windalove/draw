@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.2.13" pages="2">
   <diagram name="第 1 页" id="a9MPknaveVidtmTy9Ui0">
-    <mxGraphModel dx="5592" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5633" dy="1365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -815,77 +815,6 @@
         </mxCell>
         <mxCell id="trFr9PTwIDC_bSKP8kTL-245" value="执行命令，写缓存，并且输出_write_cache&lt;div&gt;缓存文件保存：时间戳+状态码+结果&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2360" y="2710" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="trFr9PTwIDC_bSKP8kTL-248" target="trFr9PTwIDC_bSKP8kTL-250" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-248" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1364" y="4790" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="trFr9PTwIDC_bSKP8kTL-250" target="trFr9PTwIDC_bSKP8kTL-252" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-250" value="检查是否禁用raidstat&lt;div&gt;通过判断disable_raidstat标识&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-1364" y="4890" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-251" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="trFr9PTwIDC_bSKP8kTL-252" target="trFr9PTwIDC_bSKP8kTL-254" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-252" value="定义全局变量和函数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1364" y="4990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="trFr9PTwIDC_bSKP8kTL-254" target="trFr9PTwIDC_bSKP8kTL-256" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-254" value="解析命令行参数，根据传参设置全局变量的值，控制输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1364" y="5100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-255" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="trFr9PTwIDC_bSKP8kTL-256" target="trFr9PTwIDC_bSKP8kTL-259" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-256" value="加文件锁" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1364" y="5200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="trFr9PTwIDC_bSKP8kTL-259" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1464" y="5450" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="trFr9PTwIDC_bSKP8kTL-259" target="trFr9PTwIDC_bSKP8kTL-263" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-259" value="需要点灯 |&amp;nbsp;&lt;div&gt;list_to_be_used 不存在 |&amp;nbsp;&lt;/div&gt;&lt;div&gt;禁用缓存 |&amp;nbsp;&lt;/div&gt;&lt;div&gt;获取RAID日志|&lt;/div&gt;&lt;div&gt;&amp;nbsp;获取原始磁盘输出&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1391.5" y="5290" width="175" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="trFr9PTwIDC_bSKP8kTL-261" target="trFr9PTwIDC_bSKP8kTL-269" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-261" value="main_quick函数调用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF33;" parent="1" vertex="1">
-          <mxGeometry x="-1178" y="5450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-262" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="trFr9PTwIDC_bSKP8kTL-263" target="trFr9PTwIDC_bSKP8kTL-261" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-263" value="如果设置启了is_io_busy，设置缓存过期时间为3600s" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1179" y="5370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="trFr9PTwIDC_bSKP8kTL-265" target="trFr9PTwIDC_bSKP8kTL-269" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-265" value="main函数调用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF33;" parent="1" vertex="1">
-          <mxGeometry x="-1522" y="5450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-267" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1194" y="5310" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-268" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="trFr9PTwIDC_bSKP8kTL-269" target="trFr9PTwIDC_bSKP8kTL-270" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-269" value="释放锁" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1352" y="5550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="trFr9PTwIDC_bSKP8kTL-270" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1352" y="5640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="trFr9PTwIDC_bSKP8kTL-271" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="trFr9PTwIDC_bSKP8kTL-275" target="trFr9PTwIDC_bSKP8kTL-180" edge="1">
           <mxGeometry relative="1" as="geometry" />
