@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.2.15" pages="2">
   <diagram name="第 1 页" id="a9MPknaveVidtmTy9Ui0">
-    <mxGraphModel dx="5145" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5253" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -936,7 +936,7 @@
         <mxCell id="qsmtmq4V9bc8NxyleFPX-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-64" target="qsmtmq4V9bc8NxyleFPX-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qsmtmq4V9bc8NxyleFPX-64" value="根据raid传参调用对应raid卡封装脚本函数（例:01-storcli.sh get_raid_number）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="qsmtmq4V9bc8NxyleFPX-64" value="根据raid传参调用每个raid卡脚本的对应函数（例:01-storcli.sh get_raid_number）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-620" y="5120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-65" target="qsmtmq4V9bc8NxyleFPX-70" edge="1">
@@ -995,78 +995,151 @@
         <mxCell id="qsmtmq4V9bc8NxyleFPX-81" value="输出结果保存缓存文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-790" y="5501" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-2">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-22" target="hgyBp4yDr7pp4Fqa5i7j-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-22" value="raidstat调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="5750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1361" y="6240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-28" target="hgyBp4yDr7pp4Fqa5i7j-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-28" value="根据raid传参调用对应raid卡封装脚本函数 例如：get_raid_number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-32" target="hgyBp4yDr7pp4Fqa5i7j-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-32" value="将调用的raid卡命令转换成缓存文件名，然后获取缓存文件的生成时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-860" y="6084.5" as="targetPoint" />
+            <mxPoint x="-490.00000000000045" y="6530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-2" value="raidstat调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="5990" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-4" target="hgyBp4yDr7pp4Fqa5i7j-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-4" value="根据raid传参调用对应raid卡封装脚本函数（例:01-storcli.sh get_raid_number）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="6089" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-7" target="hgyBp4yDr7pp4Fqa5i7j-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-7" target="hgyBp4yDr7pp4Fqa5i7j-14">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-37" target="hgyBp4yDr7pp4Fqa5i7j-58">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-750" y="6330" />
-              <mxPoint x="-750" y="6554" />
+              <mxPoint x="-570" y="6450" />
+              <mxPoint x="-570" y="6910" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-7" value="判断缓存是否过期or不存在（所有缓存过期时间统一）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="6290" width="80" height="80" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-37" value="判断缓存是否过期or不存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="6410" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-9" target="hgyBp4yDr7pp4Fqa5i7j-7">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-44" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-51" target="hgyBp4yDr7pp4Fqa5i7j-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-9" value="将raid卡命令装换成缓存文件名，然后获取缓存文件的生成时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="6189" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-51" value="输出结果保存缓存文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-12" target="hgyBp4yDr7pp4Fqa5i7j-14">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-53" target="hgyBp4yDr7pp4Fqa5i7j-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-12" target="hgyBp4yDr7pp4Fqa5i7j-19">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-53" value="调用raid卡命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-54" target="hgyBp4yDr7pp4Fqa5i7j-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-12" value="写缓存过程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="6410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-14" target="hgyBp4yDr7pp4Fqa5i7j-15">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-54" target="hgyBp4yDr7pp4Fqa5i7j-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-14" value="读缓存并返回结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="6509" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-54" value="判断命令是否执行成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="6630" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-15" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="6599" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-57" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6710" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-16" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="6370" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-17" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="6419" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-19" target="hgyBp4yDr7pp4Fqa5i7j-21">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-58" target="hgyBp4yDr7pp4Fqa5i7j-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-19" value="调用raid卡命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="6359" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-58" value="读缓存并输出结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-21" target="hgyBp4yDr7pp4Fqa5i7j-12">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-66" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="6490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-530" y="6110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-650" y="7040" />
+              <mxPoint x="-650" y="6110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-67" value="保存当前执行成功的raid卡脚本名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="7010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="hgyBp4yDr7pp4Fqa5i7j-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-490" y="6150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-69" value="是否还有未遍历的raid卡脚本" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="6070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-72" target="hgyBp4yDr7pp4Fqa5i7j-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-21" value="输出结果保存缓存文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="6470" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-72" target="hgyBp4yDr7pp4Fqa5i7j-84">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-22" value="raidstat调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="6000" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-72" value="判断list_to_be_used.txt配置文件是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="5850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-78" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="5910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-80" target="hgyBp4yDr7pp4Fqa5i7j-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-640" y="6050" />
+              <mxPoint x="-490" y="6050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-80" value="读取该配置文件，获取执行成功的raid卡脚本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="5950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-84" target="hgyBp4yDr7pp4Fqa5i7j-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="6050" />
+              <mxPoint x="-490" y="6050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-84" value="读取指定路径，获取所有raid卡脚本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="5960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-86" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="5900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-90" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="6170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-99" target="hgyBp4yDr7pp4Fqa5i7j-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-310" y="6110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-99" value="执行raid卡脚本定义的清理函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="6530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-101" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="6640" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
