@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.2.15" pages="2">
   <diagram name="第 1 页" id="a9MPknaveVidtmTy9Ui0">
-    <mxGraphModel dx="6226" dy="1365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5642" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -857,17 +857,17 @@
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-970" y="5121" as="targetPoint" />
+            <mxPoint x="200" y="4880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-2" value="raidstat调用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1030" y="5021" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="4780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-24" target="qsmtmq4V9bc8NxyleFPX-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-24" value="将raidstat的传入参数转换为缓存文件名，然后获取缓存文件的生成时间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1030" y="5121" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="4880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-25" target="qsmtmq4V9bc8NxyleFPX-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -875,69 +875,79 @@
         <mxCell id="qsmtmq4V9bc8NxyleFPX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qsmtmq4V9bc8NxyleFPX-25" target="qsmtmq4V9bc8NxyleFPX-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-880" y="5262" />
-              <mxPoint x="-880" y="5471" />
+              <mxPoint x="290" y="5021" />
+              <mxPoint x="290" y="5230" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-25" value="判断缓存是否过期or不存在（所有缓存过期时间统一）" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1010" y="5222" width="80" height="80" as="geometry" />
+          <mxGeometry x="160" y="4981" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-27" target="qsmtmq4V9bc8NxyleFPX-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qsmtmq4V9bc8NxyleFPX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-27" target="qsmtmq4V9bc8NxyleFPX-37" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qsmtmq4V9bc8NxyleFPX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="5069" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-27" value="写缓存过程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-1030" y="5351" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="5110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-29" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1027" y="5321" width="60" height="30" as="geometry" />
+          <mxGeometry x="143" y="5080" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qsmtmq4V9bc8NxyleFPX-30" target="qsmtmq4V9bc8NxyleFPX-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-30" value="读缓存并返回结果" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1030" y="5441" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="5200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-34" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-926" y="5321" width="60" height="30" as="geometry" />
+          <mxGeometry x="244" y="5080" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-35" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1030" y="5550" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="5309" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qsmtmq4V9bc8NxyleFPX-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-37" target="qsmtmq4V9bc8NxyleFPX-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qsmtmq4V9bc8NxyleFPX-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="5099" as="sourcePoint" />
+            <mxPoint y="5140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-37" value="根据raid传参调用对应raid卡封装脚本函数（例:01-storcli.sh get_raid_number）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="5280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qsmtmq4V9bc8NxyleFPX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-38" target="qsmtmq4V9bc8NxyleFPX-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qsmtmq4V9bc8NxyleFPX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="5200" as="sourcePoint" />
+            <mxPoint y="5249" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-38" value="调用raid卡命令" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="5381" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qsmtmq4V9bc8NxyleFPX-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-40" target="qsmtmq4V9bc8NxyleFPX-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qsmtmq4V9bc8NxyleFPX-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="1" target="qsmtmq4V9bc8NxyleFPX-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="5279" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-40" value="输出结果保存缓存文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1230" y="5490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-560" y="5115.5" as="targetPoint" />
+            <mxPoint x="610" y="4874.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-45" value="raidstat调用" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5021" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="4780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-64" target="qsmtmq4V9bc8NxyleFPX-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-64" value="根据raid传参调用每个raid卡脚本的对应函数（例:01-storcli.sh get_raid_number）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5120" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="4879" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-65" target="qsmtmq4V9bc8NxyleFPX-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -945,19 +955,19 @@
         <mxCell id="qsmtmq4V9bc8NxyleFPX-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="qsmtmq4V9bc8NxyleFPX-65" target="qsmtmq4V9bc8NxyleFPX-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-450" y="5361" />
-              <mxPoint x="-450" y="5585" />
+              <mxPoint x="720" y="5120" />
+              <mxPoint x="720" y="5344" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-65" value="判断缓存是否过期or不存在（所有缓存过期时间统一）" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-600" y="5321" width="80" height="80" as="geometry" />
+          <mxGeometry x="570" y="5080" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-66" target="qsmtmq4V9bc8NxyleFPX-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-66" value="将raid卡命令装换成缓存文件名，然后获取缓存文件的生成时间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5220" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="4979" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-70" target="qsmtmq4V9bc8NxyleFPX-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -966,40 +976,39 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-70" value="写缓存过程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5441" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="5200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qsmtmq4V9bc8NxyleFPX-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-72" target="qsmtmq4V9bc8NxyleFPX-74" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qsmtmq4V9bc8NxyleFPX-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="5389" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-72" value="读缓存并返回结果" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5540" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="5299" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-74" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5630" width="120" height="60" as="geometry" />
+          <mxGeometry x="-180" y="5180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-76" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="5401" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qsmtmq4V9bc8NxyleFPX-78" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-490" y="5450" width="60" height="30" as="geometry" />
+          <mxGeometry x="550" y="5160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-79" target="qsmtmq4V9bc8NxyleFPX-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-79" value="调用raid卡命令" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="5390" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="5149" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="1" source="qsmtmq4V9bc8NxyleFPX-81" target="qsmtmq4V9bc8NxyleFPX-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qsmtmq4V9bc8NxyleFPX-81" value="输出结果保存缓存文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="5501" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="5260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-22" target="hgyBp4yDr7pp4Fqa5i7j-72">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-22" target="hgyBp4yDr7pp4Fqa5i7j-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-22" value="raidstat调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="5750" width="120" height="60" as="geometry" />
+          <mxGeometry x="-550" y="5490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1361" y="6240" width="120" height="60" as="geometry" />
@@ -1050,7 +1059,7 @@
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-54" target="hgyBp4yDr7pp4Fqa5i7j-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-54" target="hgyBp4yDr7pp4Fqa5i7j-115">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-54" target="hgyBp4yDr7pp4Fqa5i7j-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-54" value="判断命令是否执行成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1085,10 +1094,10 @@
             <mxPoint x="-490" y="6150" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-69" target="hgyBp4yDr7pp4Fqa5i7j-120">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-69" target="hgyBp4yDr7pp4Fqa5i7j-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-69" value="是否还有未遍历的raid卡脚本" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-69" value="还有未执行的raid卡脚本&amp;amp;&amp;amp;不存在卡死标识" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="6070" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-72" target="hgyBp4yDr7pp4Fqa5i7j-80">
@@ -1098,32 +1107,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-72" value="判断list_to_be_used.txt配置文件是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="5850" width="80" height="80" as="geometry" />
+          <mxGeometry x="-530" y="5810" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-78" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="5910" width="60" height="30" as="geometry" />
+          <mxGeometry x="-650" y="5870" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-80" target="hgyBp4yDr7pp4Fqa5i7j-69">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-80">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-490" y="6070" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-640" y="6050" />
-              <mxPoint x="-490" y="6050" />
+              <mxPoint x="-640" y="6000" />
+              <mxPoint x="-489" y="6000" />
+              <mxPoint x="-489" y="6070" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-80" value="读取该配置文件，获取执行成功的raid卡脚本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-700" y="5950" width="120" height="60" as="geometry" />
+          <mxGeometry x="-700" y="5910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-84" target="hgyBp4yDr7pp4Fqa5i7j-69">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-84" target="hgyBp4yDr7pp4Fqa5i7j-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-340" y="6050" />
-              <mxPoint x="-490" y="6050" />
+              <mxPoint x="-340" y="6000" />
+              <mxPoint x="-490" y="6000" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-84" value="读取指定路径，获取所有raid卡脚本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="5960" width="120" height="60" as="geometry" />
+          <mxGeometry x="-400" y="5920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-90" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-540" y="6170" width="60" height="30" as="geometry" />
@@ -1136,51 +1147,105 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-99" value="执行raid卡脚本定义的清理函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="6420" width="120" height="60" as="geometry" />
+          <mxGeometry x="-290" y="6220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-105" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="6080" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-106" target="hgyBp4yDr7pp4Fqa5i7j-107">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-106" target="hgyBp4yDr7pp4Fqa5i7j-164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-106" value="更新list_to_be_used" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="6550" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-107" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="6670" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-106" value="设置禁用标识：disable_raidstat&lt;div&gt;清除list_to_be_used&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="6450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-110" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="5910" width="60" height="30" as="geometry" />
+          <mxGeometry x="-340" y="5870" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-115" target="hgyBp4yDr7pp4Fqa5i7j-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-115" value="设置flag标识" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="6530" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-119" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="6630" width="60" height="30" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-115" value="设置卡死标识（stuck_flag）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="6450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-120" target="hgyBp4yDr7pp4Fqa5i7j-106">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-120" target="hgyBp4yDr7pp4Fqa5i7j-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-90" y="6450" />
-              <mxPoint x="-90" y="6700" />
+              <mxPoint x="120" y="6360" />
+              <mxPoint x="40" y="6360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-120" value="flag标识是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="6410" width="80" height="80" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="6280" as="sourcePoint" />
+            <mxPoint x="220" y="6460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="6360" />
+              <mxPoint x="210" y="6360" />
+              <mxPoint x="210" y="6460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-126" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="6510" width="60" height="30" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-120" value="flag表示是否是stuck" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="6200" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-129" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="6570" width="60" height="30" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-132" target="hgyBp4yDr7pp4Fqa5i7j-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="6570" />
+              <mxPoint x="-310" y="6570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-132" target="hgyBp4yDr7pp4Fqa5i7j-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="6570" />
+              <mxPoint x="-150" y="6570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-132" value="是否是卡死超时返回" style="rhombus;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="6630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-134" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-443" y="6630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-138" target="hgyBp4yDr7pp4Fqa5i7j-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-138" value="设置错误标识（error_flag）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="6450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-142" target="hgyBp4yDr7pp4Fqa5i7j-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-142" value="是否存在flag标识" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="6070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-147" target="hgyBp4yDr7pp4Fqa5i7j-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-147" value="更新list_to_be_used" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="6450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-156" value="1 去除main_quick 一层缓存相关逻辑&lt;div&gt;2 去除load_conflict_set 模块冲突处理模块&lt;/div&gt;&lt;div&gt;3 参数解析中 debug 相关的准备去掉 -d -u -t -g&lt;/div&gt;&lt;div&gt;4&amp;nbsp;MOD_SUCCEED_LIST 存执行成功的脚本名得去掉，重新定义一个&amp;nbsp;&lt;/div&gt;&lt;div&gt;5 timeout_ctl 换一个名字，内部去处理卡死还是超时，并且执行清理操作&lt;/div&gt;&lt;div&gt;6每一个timeout_ctl 调用都要做返回值判断 ，然后做对应处理，比如跳过默写逻辑&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;7 mod_succeed 这个标识可以去掉，用返回值判断就好&amp;nbsp;&lt;/div&gt;&lt;div&gt;8&amp;nbsp; debug 打印放在timeout_ctl&lt;/div&gt;&lt;div&gt;9&amp;nbsp;WRITE_MOD_USED_LIST 把这个接口废弃掉&lt;/div&gt;&lt;div&gt;10&amp;nbsp; 单独搞一个mod_t 我觉得没啥用，考虑去掉&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="224" y="5690" width="396" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-157" target="hgyBp4yDr7pp4Fqa5i7j-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-157" value="上锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="5710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-161" target="hgyBp4yDr7pp4Fqa5i7j-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-161" value="参数解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="5600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-164" value="解锁退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="6630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-168" value="&lt;div&gt;原先的效果&lt;/div&gt;1 原先执行出错，后续还是会一直执行&lt;div&gt;2 原先执行卡死，后续命令还是会一直调用&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="450" y="6340" width="340" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
