@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.2.15" pages="2">
   <diagram name="第 1 页" id="a9MPknaveVidtmTy9Ui0">
-    <mxGraphModel dx="5642" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4066" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1010,19 +1010,16 @@
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-22" value="raidstat调用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-550" y="5490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1361" y="6240" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-28" target="hgyBp4yDr7pp4Fqa5i7j-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-28" value="根据raid传参调用对应raid卡封装脚本函数 例如：get_raid_number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="6220" width="120" height="60" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-28" value="获取RAID卡的数量，然后遍历每一张RAID卡，根据raidstat传入的参数调用该脚本函数。" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="6200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-32" target="hgyBp4yDr7pp4Fqa5i7j-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-32" value="将调用的raid卡命令转换成缓存文件名，然后获取缓存文件的生成时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-32" value="函数调用的raid卡命令转换成缓存文件名，然后获取缓存文件的生成时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-550" y="6310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-37">
@@ -1097,7 +1094,7 @@
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-69" target="hgyBp4yDr7pp4Fqa5i7j-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-69" value="还有未执行的raid卡脚本&amp;amp;&amp;amp;不存在卡死标识" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-69" value="还有未执行的raid卡脚本(for)&amp;amp;&amp;amp;不存在卡死标识" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="6070" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-72" target="hgyBp4yDr7pp4Fqa5i7j-80">
@@ -1226,8 +1223,8 @@
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-147" value="更新list_to_be_used" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="6450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-156" value="1 去除main_quick 一层缓存相关逻辑&lt;div&gt;2 去除load_conflict_set 模块冲突处理模块&lt;/div&gt;&lt;div&gt;3 参数解析中 debug 相关的准备去掉 -d -u -t -g&lt;/div&gt;&lt;div&gt;4&amp;nbsp;MOD_SUCCEED_LIST 存执行成功的脚本名得去掉，重新定义一个&amp;nbsp;&lt;/div&gt;&lt;div&gt;5 timeout_ctl 换一个名字，内部去处理卡死还是超时，并且执行清理操作&lt;/div&gt;&lt;div&gt;6每一个timeout_ctl 调用都要做返回值判断 ，然后做对应处理，比如跳过默写逻辑&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;7 mod_succeed 这个标识可以去掉，用返回值判断就好&amp;nbsp;&lt;/div&gt;&lt;div&gt;8&amp;nbsp; debug 打印放在timeout_ctl&lt;/div&gt;&lt;div&gt;9&amp;nbsp;WRITE_MOD_USED_LIST 把这个接口废弃掉&lt;/div&gt;&lt;div&gt;10&amp;nbsp; 单独搞一个mod_t 我觉得没啥用，考虑去掉&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
-          <mxGeometry x="224" y="5690" width="396" height="320" as="geometry" />
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-156" value="&lt;div&gt;&lt;b&gt;需要优化的点：&lt;/b&gt;&lt;/div&gt;1 去除main_quick 一层缓存相关逻辑&lt;div&gt;2 去除load_conflict_set 模块冲突处理模块&lt;/div&gt;&lt;div&gt;3 参数解析中 debug 相关的准备去掉 -d -u -t -g&lt;/div&gt;&lt;div&gt;4&amp;nbsp;MOD_SUCCEED_LIST 存执行成功的脚本名得去掉，重新定义一个&amp;nbsp;&lt;/div&gt;&lt;div&gt;5 timeout_ctl 换一个名字，内部去处理卡死还是超时，并且执行清理操作&lt;/div&gt;&lt;div&gt;6每一个timeout_ctl 调用都要做返回值判断 ，然后做对应处理，比如跳过默写逻辑&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;7 mod_succeed 这个标识可以去掉，用返回值判断就好&amp;nbsp;&lt;/div&gt;&lt;div&gt;8&amp;nbsp; debug 打印放在timeout_ctl&lt;/div&gt;&lt;div&gt;9&amp;nbsp;WRITE_MOD_USED_LIST 把这个接口废弃掉&lt;/div&gt;&lt;div&gt;10&amp;nbsp; 单独搞一个mod_t 我觉得没啥用，考虑去掉&lt;/div&gt;&lt;div&gt;11 type get_raid_pci_slot 需要优化，因为这个函数是必须实现的&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="203" y="5690" width="396" height="320" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-157" target="hgyBp4yDr7pp4Fqa5i7j-72">
           <mxGeometry relative="1" as="geometry" />
@@ -1238,7 +1235,7 @@
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-161" target="hgyBp4yDr7pp4Fqa5i7j-157">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-161" value="参数解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-161" value="传参解析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-550" y="5600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-164" value="解锁退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1246,6 +1243,66 @@
         </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-168" value="&lt;div&gt;原先的效果&lt;/div&gt;1 原先执行出错，后续还是会一直执行&lt;div&gt;2 原先执行卡死，后续命令还是会一直调用&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="450" y="6340" width="340" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-169" target="hgyBp4yDr7pp4Fqa5i7j-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-169" value="获取序列号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="7390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-170" target="hgyBp4yDr7pp4Fqa5i7j-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-170" value="获取pci号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="7500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-172" target="hgyBp4yDr7pp4Fqa5i7j-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-172" value="pci是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="7598.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-173" target="hgyBp4yDr7pp4Fqa5i7j-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-173" value="通过sys目录获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="7740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-176" target="hgyBp4yDr7pp4Fqa5i7j-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-176" value="点灯处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="7860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-178" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="7690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-183" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-179" target="hgyBp4yDr7pp4Fqa5i7j-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-179" value="日志处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="7990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-182" target="hgyBp4yDr7pp4Fqa5i7j-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-182" value="输出磁盘原始信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="8130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-184" target="hgyBp4yDr7pp4Fqa5i7j-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-184" value="输出控制器信息&lt;div&gt;pci、serial信息之前获取了，这边就不调用函数获取了&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="8290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-186" target="hgyBp4yDr7pp4Fqa5i7j-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-186" value="输出磁盘信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="8450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-188" value="输出逻辑卷信息&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="8610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
