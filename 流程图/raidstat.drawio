@@ -1661,6 +1661,15 @@
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-356" value="读缓存并输出结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1357" y="11080" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="hgyBp4yDr7pp4Fqa5i7j-386" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hgyBp4yDr7pp4Fqa5i7j-358" target="hgyBp4yDr7pp4Fqa5i7j-286">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1460" y="11220" />
+              <mxPoint x="-1460" y="9860" />
+              <mxPoint x="-1340" y="9860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hgyBp4yDr7pp4Fqa5i7j-358" value="保存当前执行成功的raid卡脚本名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1357" y="11190" width="120" height="60" as="geometry" />
         </mxCell>
